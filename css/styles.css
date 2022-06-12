@@ -1,0 +1,67 @@
+/*************************TAG SELECTOR*************************/
+body {
+  background-color: #FBF7F0;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 10px;
+  width: 10%;
+}
+
+img {
+  border-radius: 10px;
+}
+
+h1 {
+  color: #555555;
+}
+
+h2 {
+  color: #555555;
+}
+
+h3 {
+  color: #555555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+li {
+  color: darkolivegreen;
+}
+
+/*************************CLASS SELECTOR*************************/
+.button:link,
+.button:visited {
+  background-color: #696767;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 1mm;
+}
+
+.button:hover,
+.button:active {
+  background-color: #acacac;
+  color: #696767;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*************************ID SELECTOR*************************/
+
+#heading {
+  color: red;
+}
