@@ -30,6 +30,14 @@ h3 {
   align-items: center;
 
 }
+th, td{
+  width: 60%;
+  text-align: left;
+  border-collapse: collapse;
+  border-bottom: 1px solid #ddd;
+  min-width: 8em;
+  max-width: 10em;
+}
 
 li {
   color: darkolivegreen;
@@ -47,6 +55,7 @@ li {
   border-radius: 10px;
   margin: 1mm;
 }
+
 
 .button:hover,
 .button:active {
